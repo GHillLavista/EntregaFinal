@@ -1,0 +1,74 @@
+$principal:#00FFFF;
+$indigo:  #6610f2;
+$purple:  #6f42c1;
+$pink:    #d63384;
+$red:     #dc3545;
+$orange:  #fd7e14;
+$yellow:  #ffc107;
+$light:   #c8e9e9;
+$teal:    #20c997;
+$cyan:    #0dcaf0;
+$enojos: #B22222;
+$bg-secondary: #6c757d;
+$bg-light: #f8f9fa;
+$bg-danger: #dc3545;
+$bg-info: #17a2b8;
+$bgpres:linear-gradient#80D0C7;
+$bgheader:linear-gradient(90deg, rgba(2,0,36,1) 27%, rgba(33,214,241,1) 83%);                  
+$font-size-root:              null;
+$font-size-base:              1rem; 
+$font-size-sm:                $font-size-base * .875;
+$font-size-lg:                $font-size-base * 1.25;
+
+$font-weight-lighter:         lighter;
+$font-weight-light:           300;
+$font-weight-normal:          400;
+$font-weight-medium:          500;
+$font-weight-semibold:        600;
+$font-weight-bold:            700;
+$font-weight-bolder:          bolder;
+
+$font-weight-base:            $font-weight-normal;
+
+$line-height-base:            1.5;
+$line-height-sm:              1.25;
+$line-height-lg:              2;
+
+$h1-font-size:                $font-size-base * 2.5;
+$h2-font-size:                $font-size-base * 2;
+$h3-font-size:                $font-size-base * 1.75;
+$h4-font-size:                $font-size-base * 1.5;
+$h5-font-size:                $font-size-base * 1.25;
+$h6-font-size:                $font-size-base;
+
+$background-image-enojos:url(../assets/images/catalogo/enojos.png);
+$background-image-miedos:url(../assets/images/catalogo/miedos.png);
+$image-alavez:url(../assets/images/catalogo/alavez.png);
+$background-image-sentimientos:url(../assets/images/catalogo/sentimientos.png);
+$background-image-aveces:url(../assets/images/catalogo/aveces.png);
+$background-image-cuadernos:url(../assets/images/catalogo/cuaderno.png);
+$background-image-digalo:url(../assets/images/catalogo/digalo.png);
+$background-image-mispersonales:url(../assets/images/catalogo/mispersonajes.png);
+$background-image-charlatanes:url(../assets/images/catalogo/Charlatanes.png);
+$background-image-varios1:url(../assets/images/catalogo/variosI.png);
+$background-image-varios2:url(../assets/images/catalogo/variosII\ -\ copia.png);
+$background-image-varios3:url(../assets/images/catalogo/VariosIII.png);
+
+$background-colorpiepagina: rgba(0, 0, 0, 0.1);
+
+$background-color: #f4f4f4;
+$button-color: #ffffff;
+$button-border-color: #ccc;
+$background-image:url(../assets/images/catalogo/logobyngde.webp);
+
+$utilities: (
+  "overflow": (
+    responsive: true,
+    property: overflow,
+    values: visible hidden scroll auto,
+  ),
+);
+
+
+$background-color: #08AEEA;
+$bgtextp: linear-gradient(0deg, #08AEEA 0%, #2AF598 100%);

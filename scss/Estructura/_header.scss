@@ -1,0 +1,38 @@
+header{
+    background: $bgheader; 
+}
+
+.titheader{
+    color:$cyan ;
+}
+
+li{
+    text-decoration: none;
+}
+
+ul{
+list-style-type: none;
+
+}
+
+.Navp {
+    
+    color: white; 
+    border: none; 
+    padding: 10px 20px; 
+    cursor: pointer; 
+    transition: background-color 0.3s; 
+}
+
+.Navp:hover {
+    background-color: #007bff; 
+   
+}
+
+
+
+
+
+
+    
+        
