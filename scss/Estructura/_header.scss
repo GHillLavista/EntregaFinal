@@ -12,6 +12,7 @@ li{
 
 ul{
 list-style-type: none;
+justify-content: end;
 
 }
 
@@ -19,9 +20,9 @@ list-style-type: none;
     
     color: white; 
     border: none; 
-    padding: 10px 20px; 
+    padding: 0;
     cursor: pointer; 
-    transition: background-color 0.3s; 
+    
 }
 
 .Navp:hover {

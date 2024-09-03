@@ -1,10 +1,30 @@
-footer{
-    background-color: $principal;
+footer {
+    background-color:$principal;
+    
+   
+
+   }
+
+   p {
+    margin: 0.5em 0; 
+
+    &:last-of-type {
+        font-size: 0.9em; 
+    }
+}
+
+.social-media {
+    a {
+        transition: color 0.3s; 
+
+        &:hover {
+            color: #1b81e8; 
+        }
+    }
 }
 
 .copy{
     background-color: $background-colorpiepagina;
-   
     
-    
-}
+
+    }

@@ -3,87 +3,6 @@
   padding: 0;
 }
 
-@mixin-tit {
-  font-weight: bold;
-  font-size: 1.2rem;
-}
-body {
-  height: 100vh;
-}
-
-header {
-  background: linear-gradient(90deg, rgb(2, 0, 36) 27%, rgb(33, 214, 241) 83%);
-}
-
-.titheader {
-  color: #0dcaf0;
-}
-
-li {
-  text-decoration: none;
-}
-
-ul {
-  list-style-type: none;
-}
-
-.Navp {
-  color: white;
-  border: none;
-  padding: 10px 20px;
-  cursor: pointer;
-  transition: background-color 0.3s;
-}
-
-.Navp:hover {
-  background-color: #007bff;
-}
-
-.titprenc {
-  text-align: center;
-}
-
-.pindex {
-  font-size: 1.25rem;
-  font-stretch: expanded;
-}
-
-.present {
-  background-color: #c8e9e9;
-}
-
-footer {
-  background-color: #00FFFF;
-}
-
-.copy {
-  background-color: rgba(0, 0, 0, 0.1);
-}
-
-.carr-1 {
-  width: 10rem;
-  height: 10rem;
-  background-image: url(../assets/images/catalogo/mispersonajes.png);
-  background-size: cover;
-  background-position: center;
-}
-
-.carr-2 {
-  width: 10rem;
-  height: 10rem;
-  background-image: url(../assets/images/catalogo/aveces.png);
-  background-size: cover;
-  background-position: center;
-}
-
-.carr-3 {
-  width: 10rem;
-  height: 10rem;
-  background-image: url(../assets/images/catalogo/alavez.png);
-  background-size: cover;
-  background-position: center;
-}
-
 .tda-1 {
   width: 10rem;
   height: 10rem;
@@ -149,6 +68,97 @@ footer {
 }
 
 .tda-9 {
+  width: 10rem;
+  height: 10rem;
+  background-image: url(../assets/images/catalogo/alavez.png);
+  background-size: cover;
+  background-position: center;
+}
+
+body {
+  height: 100vh;
+}
+
+header {
+  background: linear-gradient(90deg, rgb(2, 0, 36) 27%, rgb(33, 214, 241) 83%);
+}
+
+.titheader {
+  color: #0dcaf0;
+}
+
+li {
+  text-decoration: none;
+}
+
+ul {
+  list-style-type: none;
+  justify-content: end;
+}
+
+.Navp {
+  color: white;
+  border: none;
+  padding: 0;
+  cursor: pointer;
+}
+
+.Navp:hover {
+  background-color: #007bff;
+}
+
+.titprenc {
+  text-align: center;
+}
+
+.pindex {
+  font-size: 1.25rem;
+  font-stretch: expanded;
+}
+
+.present {
+  background-color: #c8e9e9;
+}
+
+footer {
+  background-color: #00FFFF;
+}
+
+p {
+  margin: 0.5em 0;
+}
+p:last-of-type {
+  font-size: 0.9em;
+}
+
+.social-media a {
+  transition: color 0.3s;
+}
+.social-media a:hover {
+  color: #1b81e8;
+}
+
+.copy {
+  background-color: rgba(0, 0, 0, 0.1);
+}
+
+.carr-1 {
+  width: 10rem;
+  height: 10rem;
+  background-image: url(../assets/images/catalogo/mispersonajes.png);
+  background-size: cover;
+  background-position: center;
+}
+
+.carr-2 {
+  width: 10rem;
+  height: 10rem;
+  background-image: url(../assets/images/catalogo/aveces.png);
+  background-size: cover;
+  background-position: center;
+}
+
+.carr-3 {
   width: 10rem;
   height: 10rem;
   background-image: url(../assets/images/catalogo/alavez.png);
