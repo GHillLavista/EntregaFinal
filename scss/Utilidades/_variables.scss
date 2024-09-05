@@ -20,6 +20,7 @@ $font-size-base:              1rem;
 $font-size-sm:                $font-size-base * .875;
 $font-size-lg:                $font-size-base * 1.25;
 
+
 $font-weight-lighter:         lighter;
 $font-weight-light:           300;
 $font-weight-normal:          400;
@@ -27,7 +28,6 @@ $font-weight-medium:          500;
 $font-weight-semibold:        600;
 $font-weight-bold:            700;
 $font-weight-bolder:          bolder;
-
 $font-weight-base:            $font-weight-normal;
 
 $line-height-base:            1.5;
@@ -53,8 +53,6 @@ $background-image-charlatanes:url(../assets/images/catalogo/Charlatanes.png);
 $background-image-varios1:url(../assets/images/catalogo/variosI.png);
 $background-image-varios2:url(../assets/images/catalogo/variosII\ -\ copia.png);
 $background-image-varios3:url(../assets/images/catalogo/VariosIII.png);
-
-
 $background-colorpiepagina: rgba(0, 0, 0, 0.1);
 
 $background-color: #f4f4f4;
@@ -62,14 +60,53 @@ $button-color: #ffffff;
 $button-border-color: #ccc;
 $background-image:url(../assets/images/catalogo/logobyngde.webp);
 
-$utilities: (
-  "overflow": (
-    responsive: true,
-    property: overflow,
-    values: visible hidden scroll auto,
-  ),
-);
 
 
 $background-color: #08AEEA;
 $bgtextp: linear-gradient(0deg, #08AEEA 0%, #2AF598 100%);
+
+$recursos-imag-aveces1:url(../assets/images/Recursos/Aveces1_192.webp);
+$recursos-imag-aveces2:url(../assets/images/Recursos/Aveces2_192.webp);
+$recursos-img-char1:url(../assets/images/Recursos/charlatanes1_192.webp);
+$recursos-img-char2:url(../assets/images/Recursos/charlatanes2_192.webp);
+$recursos-img-char3:url(../assets/images/Recursos/charlatanes3_192.webp);
+$recursos-img-char4:url(../assets/images/Recursos/charlatanes4_192.webp);
+$recursos-img-char5:url(../assets/images/Recursos/charlatanes5_192.webp);
+$recursos-img-cuar1:url(../assets/images/Recursos/cuadernos1_192.webp);
+$recursos-img-cuar2:url(../assets/images/Recursos/cuadernos2_192.webp);
+$recursos-img-cuar3:url(../assets/images/Recursos/cuadernos3_192.webp);
+$recursos-img-cuar4:url(../assets/images/Recursos/cuadernos4_192.webp);
+$recursos-img-diga1:url(../assets/images/Recursos/Digalo1_192.webp);
+$recursos-img-diga2:url(../assets/images/Recursos/digalo2_192.webp);
+$recursos-img-enoj1:url(../assets/images/Recursos/enojos1_192.webp);
+$recursos-img-enoj2:url(../assets/images/Recursos/enojos2_192.webp);
+$recursos-img-env1:url(../assets/images/Recursos/envios1_192.webp);
+$recursos-img-env2:url(../assets/images/Recursos/envios2_192.webp);
+$recursos-img-fami1:url(../assets/images/Recursos/familias1_192.webp);
+$recursos-img-fami2:url(../assets/images/Recursos/familias2_192.webp);
+$recursos-img-mat1:url(../assets/images/Recursos/materiales1_192.webp);
+$recursos-img-mat2:url(../assets/images/Recursos/materiales2_192.webp);
+$recursos-img-mat3:url(../assets/images/Recursos/materiales3_192.webp);
+$recursos-img-mied1:url(../assets/images/Recursos/miedos1_192.webp);
+$recursos-img-mied2:url(../assets/images/Recursos/miedos2_192.webp);
+$recursos-img-mied3:url(../assets/images/Recursos/miedos3_192.webp);
+$recursos-img-misp1:url(../assets/images/Recursos/mispersonajes1_192.webp);
+$recursos-img-misp2:url(../assets/images/Recursos/mispersonajes2_192.webp);
+$recursos-img-motiv1:url(../assets/images/Recursos/motivos1_192.webp);
+$recursos-img-quesien1:url(../assets/images/Recursos/quesentiashoy1_192.webp);
+$recursos-img-sentim1:url(../assets/images/Recursos/sentim1_192.webp);
+$recursos-img-sentim2:url(../assets/images/Recursos/sentim2_192.webp);
+$recursos-img-sentim3:url(../assets/images/Recursos/sentim3_192.webp);
+$recursos-img-sentim4:url(../assets/images/Recursos/sentim4_192.webp);
+$recursos-img-sentim5:url(../assets/images/Recursos/sentim5_192.webp);
+$recursos-img-sentim6:url(../assets/images/Recursos/sentim6_192.webp);
+$recursos-img-super1:url(../assets/images/Recursos/super1_192.webp);
+$recursos-img-super2:url(../../assets/images/Recursos/super2_192.webp);
+$recursos-img-super3:url(../assets/images/Recursos/super3_192.webp);
+$recursos-img-super4:url(../assets/images/Recursos/super4_192.webp);
+$recursos-img-super5:url(../assets/images/Recursos/super5_192.webp);
+$recursos-img-varios1:url(../assets/images/Recursos/varios1_192.webp);
+$recursos-img-varios2:url(../assets/images/Recursos/varios2_192.webp);
+$recursos-img-varios3:url(../assets/images/Recursos/varios3_192.webp);
+$recursos-img-varios4:url(../assets/images/Recursos/varios4_192.webp);
+$recursos-img-sentim7:url(../assets/images/Recursos/sentim7_192.webp);

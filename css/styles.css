@@ -6,7 +6,7 @@
 .tda-1 {
   width: 10rem;
   height: 10rem;
-  background-image: url(../assets/images/catalogo/enojos.png);
+  background-image: url(../assets/images/Recursos/enojos2_192.webp);
   background-size: cover;
   background-position: center;
 }
@@ -14,7 +14,7 @@
 .tda-2 {
   width: 10rem;
   height: 10rem;
-  background-image: url(../assets/images/catalogo/cuaderno.png);
+  background-image: url(../assets/images/Recursos/cuadernos2_192.webp);
   background-size: cover;
   background-position: center;
 }
@@ -22,7 +22,7 @@
 .tda-3 {
   width: 10rem;
   height: 10rem;
-  background-image: url(../assets/images/catalogo/sentimientos.png);
+  background-image: url(../assets/images/Recursos/sentim7_192.webp);
   background-size: cover;
   background-position: center;
 }
@@ -30,7 +30,7 @@
 .tda-4 {
   width: 10rem;
   height: 10rem;
-  background-image: url(../assets/images/catalogo/Charlatanes.png);
+  background-image: url(../assets/images/Recursos/charlatanes2_192.webp);
   background-size: cover;
   background-position: center;
 }
@@ -38,7 +38,7 @@
 .tda-5 {
   width: 10rem;
   height: 10rem;
-  background-image: url(../assets/images/catalogo/digalo.png);
+  background-image: url(../assets/images/Recursos/Digalo1_192.webp);
   background-size: cover;
   background-position: center;
 }
@@ -46,7 +46,7 @@
 .tda-6 {
   width: 10rem;
   height: 10rem;
-  background-image: url(../assets/images/catalogo/mispersonajes.png);
+  background-image: url(../assets/images/Recursos/mispersonajes1_192.webp);
   background-size: cover;
   background-position: center;
 }
@@ -54,7 +54,7 @@
 .tda-7 {
   width: 10rem;
   height: 10rem;
-  background-image: url(../assets/images/catalogo/miedos.png);
+  background-image: url(../assets/images/Recursos/miedos3_192.webp);
   background-size: cover;
   background-position: center;
 }
@@ -62,7 +62,7 @@
 .tda-8 {
   width: 10rem;
   height: 10rem;
-  background-image: url(../assets/images/catalogo/aveces.png);
+  background-image: url(../assets/images/Recursos/Aveces2_192.webp);
   background-size: cover;
   background-position: center;
 }
@@ -75,6 +75,30 @@
   background-position: center;
 }
 
+.tda-10 {
+  width: 10rem;
+  height: 10rem;
+  background-image: url(../assets/images/Recursos/familias1_192.webp);
+  background-size: cover;
+  background-position: center;
+}
+
+.tda-11 {
+  width: 10rem;
+  height: 10rem;
+  background-image: url(../assets/images/Recursos/motivos1_192.webp);
+  background-size: cover;
+  background-position: center;
+}
+
+.tda-12 {
+  width: 10rem;
+  height: 10rem;
+  background-image: url(../assets/images/Recursos/quesentiashoy1_192.webp);
+  background-size: cover;
+  background-position: center;
+}
+
 body {
   height: 100vh;
 }
@@ -82,29 +106,18 @@ body {
 header {
   background: linear-gradient(90deg, rgb(2, 0, 36) 27%, rgb(33, 214, 241) 83%);
 }
-
-.titheader {
-  color: #0dcaf0;
-}
-
-li {
-  text-decoration: none;
-}
-
-ul {
+header nav ul {
   list-style-type: none;
   justify-content: end;
 }
-
-.Navp {
-  color: white;
-  border: none;
-  padding: 0;
-  cursor: pointer;
+header nav ul li:hover {
+  background-color: #6f42c1;
 }
-
-.Navp:hover {
-  background-color: #007bff;
+header nav ul li a {
+  text-decoration: none;
+}
+header nav ul li a:visited {
+  color: black;
 }
 
 .titprenc {
@@ -142,6 +155,18 @@ p:last-of-type {
   background-color: rgba(0, 0, 0, 0.1);
 }
 
+.textojuegos {
+  letter-spacing: 0.1em;
+  line-height: 1.5;
+  font-weight: 700;
+  text-align: left;
+}
+
+.card {
+  width: 5rem;
+  justify-items: center;
+}
+
 .carr-1 {
   width: 10rem;
   height: 10rem;
@@ -164,6 +189,26 @@ p:last-of-type {
   background-image: url(../assets/images/catalogo/alavez.png);
   background-size: cover;
   background-position: center;
+}
+
+.boton, .boton--cancelar, .boton--aceptar {
+  width: 200px;
+  height: 50px;
+  background-color: white;
+  text-align: center;
+  color: black;
+  border-radius: 20px;
+  border: 1px solid black;
+}
+
+.boton--aceptar {
+  background-color: green;
+  color: yellow;
+}
+
+.boton--cancelar {
+  background-color: red;
+  color: yellow;
 }
 
 /*# sourceMappingURL=styles.css.map */
