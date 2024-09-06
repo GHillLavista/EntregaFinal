@@ -1,0 +1,12 @@
+@for $i from 1 through 12 {
+    .tda-#{$i} {
+      transform: rotateY(0deg);
+      transition: transform 5s;
+      
+      &:hover {
+        transform: rotateY(360deg);
+      }
+    }
+  }
+
+  

@@ -26,20 +26,11 @@
 .boton {
     width:200px;
     height:50px;
-    background-color:white;
+    background-color:rgb(18, 114, 119);
     text-align:center;
-    color:black;
+    color:white;
     border-radius:20px;
-    border:1px solid black;
+    border:1px solid rgb(36, 19, 226);
     }
-    .boton--aceptar{
-    @extend .boton;
-    background-color:green;
-    color:yellow;
-    }
-    .boton--cancelar{
-    @extend .boton;
-    background-color:red;
-    color:yellow;
-    }
+    
             

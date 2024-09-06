@@ -99,6 +99,102 @@
   background-position: center;
 }
 
+.tda-1 {
+  transform: rotateY(0deg);
+  transition: transform 5s;
+}
+.tda-1:hover {
+  transform: rotateY(360deg);
+}
+
+.tda-2 {
+  transform: rotateY(0deg);
+  transition: transform 5s;
+}
+.tda-2:hover {
+  transform: rotateY(360deg);
+}
+
+.tda-3 {
+  transform: rotateY(0deg);
+  transition: transform 5s;
+}
+.tda-3:hover {
+  transform: rotateY(360deg);
+}
+
+.tda-4 {
+  transform: rotateY(0deg);
+  transition: transform 5s;
+}
+.tda-4:hover {
+  transform: rotateY(360deg);
+}
+
+.tda-5 {
+  transform: rotateY(0deg);
+  transition: transform 5s;
+}
+.tda-5:hover {
+  transform: rotateY(360deg);
+}
+
+.tda-6 {
+  transform: rotateY(0deg);
+  transition: transform 5s;
+}
+.tda-6:hover {
+  transform: rotateY(360deg);
+}
+
+.tda-7 {
+  transform: rotateY(0deg);
+  transition: transform 5s;
+}
+.tda-7:hover {
+  transform: rotateY(360deg);
+}
+
+.tda-8 {
+  transform: rotateY(0deg);
+  transition: transform 5s;
+}
+.tda-8:hover {
+  transform: rotateY(360deg);
+}
+
+.tda-9 {
+  transform: rotateY(0deg);
+  transition: transform 5s;
+}
+.tda-9:hover {
+  transform: rotateY(360deg);
+}
+
+.tda-10 {
+  transform: rotateY(0deg);
+  transition: transform 5s;
+}
+.tda-10:hover {
+  transform: rotateY(360deg);
+}
+
+.tda-11 {
+  transform: rotateY(0deg);
+  transition: transform 5s;
+}
+.tda-11:hover {
+  transform: rotateY(360deg);
+}
+
+.tda-12 {
+  transform: rotateY(0deg);
+  transition: transform 5s;
+}
+.tda-12:hover {
+  transform: rotateY(360deg);
+}
+
 body {
   height: 100vh;
 }
@@ -162,9 +258,18 @@ p:last-of-type {
   text-align: left;
 }
 
-.card {
-  width: 5rem;
-  justify-items: center;
+#sep {
+  margin-top: 3rem;
+}
+
+.bgmain {
+  background-color: #c8e9e9;
+}
+
+.cont {
+  width: 10rem;
+  height: 3rem;
+  color: #00FFFF;
 }
 
 .carr-1 {
@@ -191,24 +296,14 @@ p:last-of-type {
   background-position: center;
 }
 
-.boton, .boton--cancelar, .boton--aceptar {
+.boton {
   width: 200px;
   height: 50px;
-  background-color: white;
+  background-color: rgb(18, 114, 119);
   text-align: center;
-  color: black;
+  color: white;
   border-radius: 20px;
-  border: 1px solid black;
-}
-
-.boton--aceptar {
-  background-color: green;
-  color: yellow;
-}
-
-.boton--cancelar {
-  background-color: red;
-  color: yellow;
+  border: 1px solid rgb(36, 19, 226);
 }
 
 /*# sourceMappingURL=styles.css.map */

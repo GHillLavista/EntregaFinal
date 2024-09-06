@@ -2,16 +2,8 @@
 
 @mixin footer-styles($bg-color, $text-color) {
     background-color: $bg-color;
-    color: $text-color;
-    padding: 10px 15px;
-    border: none;
-    border-radius: 5px;
     font-size: 1rem;
+
 }
 
-@mixin Tda {
-    width: 10rem;
-    height: 10rem;  
-    background-size: cover;
-    background-position: center;  
-}
+
