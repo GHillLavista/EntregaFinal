@@ -210,10 +210,28 @@ header nav ul li:hover {
   background-color: #6f42c1;
 }
 header nav ul li a {
+  color: white;
   text-decoration: none;
 }
-header nav ul li a:visited {
-  color: black;
+
+.Navp {
+  color: white;
+}
+
+@media (max-width: 576px) {
+  .resp {
+    font-size: 0.8rem;
+  }
+}
+@media (min-width: 577px) and (max-width: 768px) {
+  .resp {
+    font-size: 1.1rem;
+  }
+}
+@media (min-width: 769px) and (max-width: 992px) {
+  .resp {
+    font-size: 1.1rempx;
+  }
 }
 
 .titprenc {
@@ -227,6 +245,15 @@ header nav ul li a:visited {
 
 .present {
   background-color: #c8e9e9;
+}
+
+#ind {
+  color: #17a2b8;
+  margin: 1rem;
+}
+
+.bg {
+  background-image: url(../assets/images/Recursos/sentim6_192.webp);
 }
 
 footer {

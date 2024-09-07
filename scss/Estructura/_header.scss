@@ -1,37 +1,57 @@
 header{
     background: $bgheader;  
+
     nav{
+
         ul{
-            list-style-type: none;
+           list-style-type: none;
             justify-content: end;
 
             li{
+
                 &:hover{
                     background-color: $purple;
                 }
+
                 a{
+                    color: white;
                     text-decoration: none;
-                    &:visited{
-                        color: black;
-                    }
+
+                    
                 }
             }
         }
     }
 }
 
+.Navp{
+    color: white;
+}
 
-@function breakpoint-next($name, $breakpoints: $grid-breakpoints, $breakpoint-names: map-keys($breakpoints)) {
-    $n: index($breakpoint-names, $name);
-    @if not $n {
-      @error "breakpoint `#{$name}` not found in `#{$breakpoints}`";
+.resp {
+    
+    @media (max-width: 576px) {
+       
+      font-size: 0.8rem;         
     }
-    @return if($n < length($breakpoint-names), nth($breakpoint-names, $n + 1), null);
+  
+    @media (min-width: 577px) and (max-width: 768px) {
+      
+        font-size: 1.1rem;         
+      }
+    
+    @media (min-width: 769px) and (max-width: 992px) {
+      
+        font-size: 1.1rempx;         
+      }
+
+    
   }
 
 
-
-
+    
+   
+   
 
 
 
