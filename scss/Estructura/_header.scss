@@ -2,21 +2,23 @@ header{
     background: $bgheader;  
 
     nav{
+        
 
         ul{
-           list-style-type: none;
+            
+            list-style-type: none;
             justify-content: end;
 
             li{
-
+                
                 &:hover{
                     background-color: $purple;
                 }
 
                 a{
-                    color: white;
+                    
                     text-decoration: none;
-
+                    
                     
                 }
             }
@@ -24,9 +26,13 @@ header{
     }
 }
 
-.Navp{
-    color: white;
-}
+.highlight {
+    color: white; 
+
+  }
+
+
+
 
 .resp {
     

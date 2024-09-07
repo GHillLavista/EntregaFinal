@@ -207,14 +207,13 @@ header nav ul {
   justify-content: end;
 }
 header nav ul li:hover {
-  background-color: #6f42c1;
+  background-color: #bfa6ee;
 }
 header nav ul li a {
-  color: white;
   text-decoration: none;
 }
 
-.Navp {
+.highlight {
   color: white;
 }
 
@@ -276,6 +275,10 @@ p:last-of-type {
 
 .copy {
   background-color: rgba(0, 0, 0, 0.1);
+}
+
+.catmain {
+  background-color: #c8e9e9;
 }
 
 .textojuegos {

@@ -1,0 +1,39 @@
+#error {
+    background-color: $background-color;
+    font-family: $font-stack;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+
+.error-container {
+    text-align: center;
+
+    .error-title {
+        font-size: 10rem;
+        color: $primary-color;
+        margin: 0;
+    }
+
+    .error-message {
+        font-size: 1.5rem;
+        color: $text-color;
+    }
+
+    .error-link {
+        display: inline-block;
+        margin-top: 20px;
+        padding: 10px 20px;
+        background-color: $primary-color;
+        color: white;
+        text-decoration: none;
+        border-radius: 5px;
+
+        &:hover {
+            background-color: darken($primary-color, 10%);
+        }
+    }
+}
