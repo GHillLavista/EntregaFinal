@@ -1,11 +1,11 @@
 @each $class, $image in $tda-images {
 .#{$class} {
- width: 10rem;
- height: 10rem;
- background-image: $image;
+width: 10rem;
+height: 10rem;
+background-image: $image;
 background-size: cover;
 background-position: center;
-        
+       
 }
 
     }

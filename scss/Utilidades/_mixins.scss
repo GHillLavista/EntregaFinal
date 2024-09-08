@@ -6,3 +6,19 @@
 
 }
 
+@mixin scale-effect($scale-factor, $duration) {
+    transition: transform $duration;
+    
+    &:hover {
+      transform: scale($scale-factor);
+    }
+  }
+  
+  
+  .agr {
+    @include scale-effect(1.1, 0.3s); 
+  }
+
+  .textojuegos{
+    @include scale-effect(1.1, 0.3s);
+  }

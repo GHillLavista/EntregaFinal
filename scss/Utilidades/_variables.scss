@@ -10,7 +10,10 @@ $teal:    #20c997;
 $cyan:    #0dcaf0;
 $primary-color: #ff4757;
 $background-color: #f2f2f2;
-$text-color: #333;
+
+$whatsapp-color: #25D366; 
+$text-color: #fff; 
+
 $enojos: #B22222;
 $bg-secondary: #6c757d;
 $bg-light: #f8f9fa;
@@ -22,7 +25,7 @@ $font-size-root:              null;
 $font-size-base:              1rem; 
 $font-size-sm:                $font-size-base * .875;
 $font-size-lg:                $font-size-base * 1.25;
-$font-stack: 'Arial', sans-serif;
+
 
 $font-weight-lighter:         lighter;
 $font-weight-light:           300;
@@ -32,6 +35,9 @@ $font-weight-semibold:        600;
 $font-weight-bold:            700;
 $font-weight-bolder:          bolder;
 $font-weight-base:            $font-weight-normal;
+$text-color: #333;
+$font-stack: 'Arial', sans-serif;
+
 
 $line-height-base:            1.5;
 $line-height-sm:              1.25;
@@ -44,18 +50,7 @@ $h4-font-size:                $font-size-base * 1.5;
 $h5-font-size:                $font-size-base * 1.25;
 $h6-font-size:                $font-size-base;
 
-$background-image-enojos:url(../assets/images/catalogo/enojos.png);
-$background-image-miedos:url(../assets/images/catalogo/miedos.png);
-$image-alavez:url(../assets/images/catalogo/alavez.png);
-$background-image-sentimientos:url(../assets/images/catalogo/sentimientos.png);
-$background-image-aveces:url(../assets/images/catalogo/aveces.png);
-$background-image-cuadernos:url(../assets/images/catalogo/cuaderno.png);
-$background-image-digalo:url(../assets/images/catalogo/digalo.png);
-$background-image-mispersonales:url(../assets/images/catalogo/mispersonajes.png);
-$background-image-charlatanes:url(../assets/images/catalogo/Charlatanes.png);
-$background-image-varios1:url(../assets/images/catalogo/variosI.png);
-$background-image-varios2:url(../assets/images/catalogo/variosII\ -\ copia.png);
-$background-image-varios3:url(../assets/images/catalogo/VariosIII.png);
+
 $background-colorpiepagina: rgba(0, 0, 0, 0.1);
 
 $background-color: #f4f4f4;
@@ -69,6 +64,7 @@ $background-color: #08AEEA;
 $bgtextp: linear-gradient(0deg, #08AEEA 0%, #2AF598 100%);
 
 $recursos-imag-aveces1:url(../assets/images/Recursos/Aveces1_192.webp);
+$recursos-imag-alavez1:url(../assets/images/Recursos/alavez.webp);
 $recursos-imag-aveces2:url(../assets/images/Recursos/Aveces2_192.webp);
 $recursos-img-char1:url(../assets/images/Recursos/charlatanes1_192.webp);
 $recursos-img-char2:url(../assets/images/Recursos/charlatanes2_192.webp);
